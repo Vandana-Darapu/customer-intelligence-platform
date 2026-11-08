@@ -1,0 +1,59 @@
+﻿
+=== Metadata profile: All_Beauty ===
+Metadata rows: 112,590
+Unique parent_asin: 112,590
+Duplicate parent_asin rows: 0
+
+Missing values per column:
+parent_asin            0
+main_category          0
+title                  0
+average_rating         0
+rating_number          0
+price              94886
+store              11331
+category_levels        0
+dtype: int64
+
+Empty store text: 11,331
+
+Python types found in price field: {'NoneType': 94886, 'float': 17704}
+Numeric prices: 17,704
+Non-null but not numeric prices: 0
+
+Price summary (numeric only):
+count    17704.00000
+mean        27.25573
+std         50.47202
+min          0.01000
+25%          9.99000
+50%         16.99000
+75%         29.90000
+max       2548.98000
+Name: price, dtype: float64
+
+Average rating summary:
+count    112590.000000
+mean          3.883488
+std           0.874384
+min           1.000000
+25%           3.400000
+50%           4.000000
+75%           4.500000
+max           5.000000
+Name: average_rating, dtype: float64
+
+Top main_category values:
+main_category
+All Beauty        112135
+Premium Beauty       455
+Name: count, dtype: int64
+
+Category depth (levels in categories list):
+category_levels
+0    112590
+Name: count, dtype: int64
+
+=== Join coverage ===
+Review rows with matching metadata: 701,528 of 701,528 (100.00%)
+Reviewed products with metadata: 112,565 of 112,565
