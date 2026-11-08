@@ -1,0 +1,16 @@
+﻿Rows: 701,528
+Empty text:  720 (0.10%)
+Empty title: 0 (0.00%)
+Empty text AND empty title: 0
+
+Rating split among empty-text reviews:
+rating
+1.0    0.1833
+2.0    0.0347
+3.0    0.0333
+4.0    0.0875
+5.0    0.6611
+Name: proportion, dtype: float64
+
+Extra copies sharing user+product+timestamp: 7,276
+Extra copies that are exact duplicates:      7,276
