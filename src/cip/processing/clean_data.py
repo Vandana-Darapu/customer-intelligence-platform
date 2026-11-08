@@ -64,11 +64,11 @@ def clean_reviews(spark, category):
     ).count()
     log.info("Rows missing rating, timestamp or product id: %s", f"{bad:,}")
     keys = ["user_id", "parent_asin", "timestamp", "rating", "title", "text"]
-    deduped = raw.dropDuplicates(keys).cache()
+    deduped = raw.dropna(subset=["rating", "timestamp", "parent_asin"]).dropDuplicates(keys).cache()
     kept = deduped.count()
     log.info(
         "Exact duplicates removed: %s -> %s rows remain",
-        f"{raw_count - kept:,}",
+        f"{raw_count - bad - kept:,}",
         f"{kept:,}",
     )
     clean = (
