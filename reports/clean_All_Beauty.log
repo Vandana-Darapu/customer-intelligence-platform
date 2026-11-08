@@ -1,0 +1,16 @@
+2026-11-08 23:57:56,277 INFO Cleaning category: All_Beauty
+2026-11-08 23:58:20,774 INFO Reviews read: 701,528
+2026-11-08 23:58:21,312 INFO Rows missing rating, timestamp or product id: 0
+2026-11-08 23:58:30,762 INFO Exact duplicates removed: 7,276 -> 694,252 rows remain
+2026-11-08 23:58:39,172 INFO Rows read back from Parquet: 694,252 (expected 694,252)
+2026-11-08 23:58:40,024 INFO Reviews without text: 705 (0.10%)
+2026-11-08 23:58:41,440 INFO Sentiment negative: 143,489 (20.67%)
+2026-11-08 23:58:41,440 INFO Sentiment neutral: 55,720 (8.03%)
+2026-11-08 23:58:41,441 INFO Sentiment positive: 495,043 (71.31%)
+2026-11-08 23:58:46,064 INFO Products read: 112,590, after removing duplicate ids: 112,590
+2026-11-08 23:58:49,060 INFO Price outlier fence (Q3 + 1.5 x IQR): 59.76
+2026-11-08 23:58:54,803 INFO Products read back from Parquet: 112,590 (expected 112,590)
+2026-11-08 23:58:59,466 INFO Products with a price: 17,704 (15.72%)
+2026-11-08 23:58:59,466 INFO Products flagged as price outliers: 1,341
+2026-11-08 23:59:02,773 INFO Cleaned reviews with no matching product: 0 (expected 0)
+2026-11-08 23:59:02,774 INFO Finished in 66 seconds
